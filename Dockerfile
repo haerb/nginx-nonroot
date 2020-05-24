@@ -1,3 +1,3 @@
 FROM nginx:alpine
-RUN addgroup user && adduser -D -G user user
+RUN addgroup nginx && adduser -D -G nginx user
 USER user
